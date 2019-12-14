@@ -13,7 +13,7 @@ function exampleCall({ nameObj } = {}) {
     lastName: nameObj.lastName
   };
 
-  if (!nameObj.firstName && !nameObj.lastName) {
+  if (!nameObj || (!nameObj.firstName && !nameObj.lastName)) {
     retObj.anObjectHasNoName = true;
   }
 
