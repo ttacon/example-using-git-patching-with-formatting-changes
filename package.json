@@ -1,0 +1,22 @@
+{
+  "name": "example-using-git-patching-with-formatting-changes",
+  "version": "1.0.0",
+  "description": "Example using git hunks when staging commits",
+  "main": "example.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ttacon/example-using-git-apply-with-formatting-changes.git"
+  },
+  "author": "Trey Tacon <ttacon@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ttacon/example-using-git-apply-with-formatting-changes/issues"
+  },
+  "homepage": "https://github.com/ttacon/example-using-git-apply-with-formatting-changes#readme",
+  "dependencies": {
+    "underscore": "^1.9.1"
+  }
+}
